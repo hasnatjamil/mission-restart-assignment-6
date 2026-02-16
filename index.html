@@ -24,7 +24,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- stylesheet -->
-
     <link rel="stylesheet" href="style/style.css" />
 </head>
 
@@ -98,29 +97,163 @@
     </section>
 
     <!-- why choose us section -->
-    <section class="bg-[#F9FAFB]">
-        <div class="text-center">
-            <h2>Why Choose Us</h2>
-            <p>We provide the best shopping experience with top-notch services.</p>
+    <section class="bg-[#F9FAFB] ">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="text-center">
+                <h2 class="text-black font-extrabold text-4xl">Why Choose Us</h2>
+                <p class="py-4 text-slate-400 font-medium text-xl">We provide the best shopping experience with
+                    top-notch services.</p>
 
-        </div>
-        <div>
-            <div class="card w-64 bg-base-100 shadow-sm">
-                <div class="card-body">
-                    <span class="badge badge-xs badge-warning">Most Popular</span>
-                    <div class="flex justify-between">
-                        <h2 class="text-xl font-semibold">Fast Delivery</h2>
-                        <p>
+            </div>
+            <div>
 
-                        </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+                    <div class="card w-64 bg-base-100 shadow-sm">
+
+
+                        <div class="card-body relative">
+                            <span class="rounded bg-[#edf1ff] h-8 w-8 border-spacing-2 ">
+                                <i class="fa-regular fa-truck "></i>
+                            </span>
+                            <div class="">
+                                <h2 class="text-xl font-semibold">Fast Delivery</h2>
+                                <p>
+                                    Get your orders delivered to
+                                    your doorstep quickly and
+                                    efficiently.
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
+                    <div class="card w-64 bg-base-100 shadow-sm">
+                        <div class="card-body relative">
+                            <span class=""><i class="fa-regular fa-headphones"></i></span>
+                            <div class="">
+                                <h2 class="text-xl font-semibold">24/7 Support</h2>
+                                <p>
+                                    Our support team is available
+                                    around the clock to assist you.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="card w-64 bg-base-100 shadow-sm">
+                        <div class="card-body relative">
+                            <span class=""><i class="fa-solid fa-shield-halved"></i></span>
+                            <div class="">
+                                <h2 class="text-xl font-semibold">Secure Payment</h2>
+                                <p>
+                                    Experience safe and secure
+                                    transactions with our
+                                    encrypted payment systems.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card w-64 bg-base-100 shadow-sm">
+                        <div class="card-body relative">
+                            <span class="m-4 rounded-md "><i
+                                    class="fa-solid fa-arrow-rotate-left text-slate-600"></i></span>
+                            <div class="">
+                                <h2 class="text-xl font-semibold">Easy Returns</h2>
+                                <p>
+                                    Not satisfied? Return your
+                                    products easily within 30
+                                    days.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </section>
+
+    <footer class="bg-[#1e293b] text-gray-300">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+                <!-- Column 1 -->
+                <div>
+                    <h2 class="text-2xl font-bold text-[#6366f1] mb-4">
+                        SwiftCart
+                    </h2>
+                    <p class="text-sm leading-relaxed">
+                        Your one-stop shop for all your fashion and lifestyle needs.
+                        Quality products, fast delivery, and excellent support.
+                    </p>
+                </div>
+
+                <!-- Column 2 -->
+                <div>
+                    <h3 class="text-sm font-semibold uppercase  mb-4 text-gray-400">
+                        Quick Links
+                    </h3>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="#" class="hover:text-white transition">Home</a></li>
+                        <li><a href="#" class="hover:text-white transition">Products</a></li>
+                        <li><a href="#" class="hover:text-white transition">About</a></li>
+                        <li><a href="#" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div>
+                    <h3 class="text-sm font-semibold uppercase  mb-4 text-gray-400">
+                        Support
+                    </h3>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="#" class="hover:text-white transition">FAQ</a></li>
+                        <li><a href="#" class="hover:text-white transition">Shipping</a></li>
+                        <li><a href="#" class="hover:text-white transition">Returns</a></li>
+                        <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div>
+                    <h3 class="text-sm font-semibold uppercase  mb-4 text-gray-400">
+                        Subscribe to our newsletter
+                    </h3>
+                    <p class="text-sm mb-4">
+                        The latest news, articles, and resources, sent to your inbox weekly.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <input type="email" placeholder="Enter your email"
+                            class="px-4 py-2 rounded-md bg-white text-gray-900 w-full">
+                        <button class="px-5 py-2 bg-[#4F39F6] rounded-md hover:bg-[#3c2fd1] transition text-white">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Divider -->
+            <div
+                class="border-t border-gray-700 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+
+                <p class="text-sm text-gray-400">
+                    © 2025 SwiftCart, Inc. All rights reserved.
+                </p>
+
+                <!-- Social Icons -->
+                <div class="flex gap-6  text-lg">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
 
 
